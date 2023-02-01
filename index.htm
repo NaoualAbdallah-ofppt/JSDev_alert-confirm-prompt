@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Document</title>
+</head>
+<body>
+    
+<h1>Demo1</h1>
+<p>
+    Ceci est un exemple de javascript<br/>
+    Les bases
+</p>
+<script language="javascript" >
+    var a=prompt("Introduire un premier nombre","0")
+    var b=prompt("Introduire un deuxième nombre","0")
+    
+    var c=eval(a)+eval(b)
+
+   if (c<10)
+   {
+    alert("La valeur de c est : " + c + ". c'est un petit nombre" ) 
+  
+   }
+   else
+   {
+    alert("La valeur de c est : " + c + ". c'est un grand nombre" )
+   }
+
+   if (c<10)
+   {
+    var x=confirm("Voulez vous que je le double ?")
+    if (x) // ou if (x==true)
+    {
+        c=c*2 //c*=2
+        alert("La valeur de c vient d'être doublée : " + c )
+   
+    }
+
+
+   }
+
+</script>
+</body>
+</html>
